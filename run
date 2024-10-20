@@ -1,2 +1,3 @@
+cd $(dirname "$0")
 source ./env
 $PYTHON src.py "$@"
