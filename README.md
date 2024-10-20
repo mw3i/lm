@@ -4,6 +4,8 @@ title: ok
 
 A hastily made terminal command to ask chatgpt questions about using the terminal -- with message history.
 
+![demo](demo.gif)
+
 # Usage
 
 ```bash
