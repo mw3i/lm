@@ -1,0 +1,17 @@
+# in progress...
+source ./env
+
+$PYTHON -m pip install python-dotenv openai appdirs
+
+# ---
+
+# EVENTUALLY:
+
+# Get the app config directory using Python and make a symlink to it
+# sourcedir=$($PYTHON -c "from appdirs import AppDirs; print(AppDirs('okay').user_config_dir)") # <-- this is where persistent storage would be cross-platform (ideally)
+
+# Create a symlink to the sourcedir in the current directory
+# ln -s "$sourcedir" ./os # <-- just work out of here instead of carrying around that sourcedir variable
+
+# add shortcut to users namespace ('ok')
+# ...

@@ -1,0 +1,13 @@
+# repo
+os/history
+env
+.secrets
+
+# python
+__pycache__/
+
+# Annoying MacOS Litter
+.DS_Store
+._.*
+
+
