@@ -46,5 +46,4 @@ source ~/.bashrc
 
 # Notes
 
-- `lm` might be a cooler name for the command than `ok` ("language model"); or at least more intuitive
 - `./os` folder would be a symlink to the appropriate config location for the os, if this were to be crossplatform
