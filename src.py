@@ -11,7 +11,7 @@ dotenv.load_dotenv('.secrets')
 # SETUP
 # # # # # 
 if len(sys.argv) < 2:
-    print("No message provided. Usage: hey <message>")
+    print("No message provided. have to provide a message")
     sys.exit(1)
 
 query = " ".join(sys.argv[1:])
@@ -96,4 +96,4 @@ with open(history_file, "r") as f:
 
 # Write back only the last 100 lines
 with open(history_file, "w") as f:
-    f.writelines(lines[-int(os.getenv('OK_HISTORY_SIZE', 20)):])
+    f.writelines(lines[-int(os.getenv('TERMINALLM_HISTORY_SIZE', 20)):])

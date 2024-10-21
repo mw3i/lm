@@ -1,5 +1,5 @@
 ---
-title: ok
+title: lm
 ---
 
 A hastily made terminal command to ask chatgpt questions about using the terminal -- with message history.
@@ -8,24 +8,24 @@ A hastily made terminal command to ask chatgpt questions about using the termina
 
 # Usage
 
-```bash
-ok how do i search for any file in this dir that has the text "test"
 ```
-```bash
-ok okay same command but this time search for text "test2"
+lm how do i search for any file in this dir that has the text "test"
 ```
-```bash
-ok how do i create a softlink?
 ```
-```bash
-ok how do i install htop?
+lm okay same command but this time search for text "test2"
+```
+```
+lm how do i create a softlink?
+```
+```
+lm how do i install htop?
 ```
 
 # Installation
 
 ```bash
-git clone "repo-url"
-cd okay
+git clone https://github.com/mw3i/lm
+cd lm
 ```
 
 Set path to "$PYTHON" in `env` file
@@ -39,7 +39,7 @@ Download dependencies:
 
 Add shortcut to your bashrc:
 ```bash
-echo "alias ok=$(pwd)/run" >> ~/.bashrc
+echo "alias lm=$(pwd)/run" >> ~/.bashrc
 source ~/.bashrc
 ```
 (^ once you move this dir the alias will be incorrect)
